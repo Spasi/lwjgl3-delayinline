@@ -1,0 +1,1619 @@
+# {method} {0x0x00000000178DAD10} 'demo_draw_build_cmd' '()V' in 'org/lwjgl/demo/vulkan/HelloVulkan'
+#           [sp+0x60]  (sp of caller)
+[Entry Point]
+0x000000010bb27e0c: 2808 40b9
+0x000000010bb27e1c: 292d f717
+[Verified Entry Point]
+0x0x0000000000000000: 1f20 03d5  ; - java.lang.ThreadLocal::get@1 (line 171)
+                               ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000020: 8197 0054 0x0x0000000000000024:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000024: 8acb 41f9 0x0x0000000000000028:  ;*invokestatic currentThread {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.ThreadLocal::get@1 (line 171)
+                                                   ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000028: 4a01 40f9 0x0x000000000000002C:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000002C: e103 00f9 0x0x0000000000000030:  ;*getfield threadLocals {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.ThreadLocal::getMap@1 (line 305)
+                                                   ; - java.lang.ThreadLocal::get@2 (line 184)
+                                                   ; - java.lang.ThreadLocal::get@4 (line 171)
+                                                   ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000030: 4b2d 40f9 0x0x0000000000000034:  ; implicit exception: dispatches to 0x0x0000000000001128
+0x0x0000000000000034: 6c0d 40f9 0x0x0000000000000038:  ; implicit exception: dispatches to 0x0x0000000000001000
+0x0x0000000000000038: 8d0d 40b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000044: 4e1d bd72 0x0x0000000000000048:  ;*iand {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.ThreadLocal$ThreadLocalMap::getEntry@11 (line 498)
+                                                   ; - java.lang.ThreadLocal::get@12 (line 186)
+                                                   ; - java.lang.ThreadLocal::get@4 (line 171)
+                                                   ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000048: ef01 0e0a  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000050: 2d66 0034 0x0x0000000000000054:  ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.ThreadLocal$ThreadLocalMap::getEntry@18 (line 499)
+                                                   ; - java.lang.ThreadLocal::get@12 (line 186)
+                                                   ; - java.lang.ThreadLocal::get@4 (line 171)
+                                                   ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000054: ce09 40f9 0x0x0000000000000058:  ; implicit exception: dispatches to 0x0x0000000000001148
+                                                   ;*invokevirtual refersTo0 {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.ref.Reference::refersToImpl@2 (line 379)
+                                                   ; - java.lang.ref.Reference::refersTo@2 (line 370)
+                                                   ; - java.lang.ThreadLocal$ThreadLocalMap::getEntry@26 (line 500)
+                                                   ; - java.lang.ThreadLocal::get@12 (line 186)
+                                                   ; - java.lang.ThreadLocal::get@4 (line 171)
+                                                   ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000058: cc09 40f9 0x0x000000000000005C:  ;   {oop(a 'java/lang/ThreadLocal$SuppliedThreadLocal'{0x0x00000002110E7F00})}
+0x0x000000000000005C: 0da4 9fd2  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000064: 6d00 c0f2 0x0x0000000000000068:  ;*getfield value {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.ThreadLocal::get@21 (line 189)
+                                                   ; - java.lang.ThreadLocal::get@4 (line 171)
+                                                   ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000068: dd19 40f9
+0x0x0000000000000074: ab0b 40b9 0x0x0000000000000078:  ;   {metadata('org/lwjgl/system/MemoryStack')}
+0x0x0000000000000078: 0a20 a0d2  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000080: 7f01 0a6b 0x0x0000000000000084:  ;*checkcast {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::stackGet@6 (line 899)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000084: c178 0054 0x0x0000000000000088:  ;*getfield address {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@1 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::malloc@11 (line 232)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@5 (line 1633)
+0x0x0000000000000088: ab0b 40f9 0x0x000000000000008C:  ;*getfield pointer {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::push@32 (line 137)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x000000000000008C: a21b 40b9 0x0x0000000000000090:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000090: 6ac1 228b 0x0x0000000000000094:  ;*getfield frames {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::push@5 (line 133)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000094: b117 40f9 0x0x0000000000000098:  ;*lsub {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@12 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::malloc@11 (line 232)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@5 (line 1633)
+0x0x0000000000000098: 4c81 00d1 0x0x000000000000009C:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@25 (line 1639)
+0x0x000000000000009C: 2d74 40f9 0x0x00000000000000A0:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000000A0: fd07 00f9 0x0x00000000000000A4:  ;*getfield frameIndex {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::push@1 (line 133)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x00000000000000A4: aa1f 40b9 0x0x00000000000000A8:  ;*land {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@23 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::malloc@11 (line 232)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@5 (line 1633)
+0x0x00000000000000A8: 85f1 7d92 0x0x00000000000000AC:  ; implicit exception: dispatches to 0x0x0000000000001030
+0x0x00000000000000AC: 3d0e 40b9
+0x0x00000000000000CC: 4068 0054  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000000D4: e107 40f9 0x0x00000000000000D8:  ;*putfield frameIndex {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::push@28 (line 137)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x00000000000000D8: 201c 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000000E0: 824a 0054 0x0x00000000000000E4:  ;*l2i {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@32 (line 319)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::malloc@11 (line 232)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@5 (line 1633)
+0x0x00000000000000E4: fd03 0b2a 0x0x00000000000000E8:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000000E8: 2aca 2a8b 0x0x00000000000000EC:  ;*iastore {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::push@35 (line 137)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x00000000000000EC: 4211 00b9 0x0x00000000000000F0:  ;*putfield pointer {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@33 (line 319)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::malloc@11 (line 232)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@5 (line 1633)
+0x0x00000000000000F0: 3d18 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000000FC: 8ae9 7d92 0x0x0000000000000100:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsInts::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54EADE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF54EC1E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJI_V@134 (line 1017)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 718)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutInt@12 (line 1814)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::nsType@7 (line 276)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::sType@5 (line 95)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::sType$Default@3 (line 97)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@8 (line 1634)
+0x0x0000000000000100: 4301 00b9 0x0x0000000000000104:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000104: 0bee 7e92 0x0x0000000000000108:  ;*invokevirtual putLongUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putLongUnaligned@10 (line 3682)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnalignedInternal@17 (line 2605)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnaligned@8 (line 2593)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsLongs::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF550A9E0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF550B9E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJJ_V@134 (line 1071)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 742)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutLong@12 (line 1815)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutAddress@8 (line 1828)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::npNext@7 (line 278)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::pNext@5 (line 99)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@12 (line 1635)
+0x0x0000000000000108: df01 00f9 0x0x000000000000010C:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000010C: eaed 7e92 0x0x0000000000000110:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsInts::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54EADE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF54EC1E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJI_V@134 (line 1017)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 718)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutInt@12 (line 1814)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::nflags@7 (line 280)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::flags@5 (line 105)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@16 (line 1636)
+0x0x0000000000000110: 7f01 00b9 0x0x0000000000000114:  ;*invokevirtual putLongUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putLongUnaligned@10 (line 3682)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnalignedInternal@17 (line 2605)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnaligned@8 (line 2593)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsLongs::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF550A9E0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF550B9E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJJ_V@134 (line 1071)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 742)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutLong@12 (line 1815)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutAddress@8 (line 1828)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::npInheritanceInfo@10 (line 282)
+                                                   ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::pInheritanceInfo@5 (line 107)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@20 (line 1637)
+0x0x0000000000000114: 5f01 00f9 0x0x0000000000000118:  ; implicit exception: dispatches to 0x0x0000000000001048
+                                                   ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000118: aa0d 40f9 0x0x000000000000011C:  ; implicit exception: dispatches to 0x0x0000000000001060
+                                                   ;*invokespecial <init> {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.foreign.SegmentFactories::makeNativeSegmentUnchecked@13 (line 82)
+                                                   ; - java.lang.foreign.MemorySegment::ofAddress@2 (line 1543)
+                                                   ; - org.lwjgl.system.JNI::callPPI@5 (line 1967)
+                                                   ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@14 (line 2255)
+                                                   ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+0x0x000000000000011C: 4131 41f9 0x0x0000000000000120:  ;*getfield address {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.Pointer$Default::address@1 (line 65)
+                                                   ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@9 (line 2255)
+                                                   ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+0x0x0000000000000120: a209 40f9
+0x0x0000000000000128: 049f 97d2  ;*invokestatic linkToNative {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C79E0::invoke@16
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55179E0::invokeExact_MT@23
+                               ; - jdk.internal.foreign.abi.DowncallStub/0x0x000007FAF558C5E0::invoke@52
+                               ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF55151E0::invokeStatic@16
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C75E0::invoke@47
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55171E0::invokeExact_MT@23
+                               ; - org.lwjgl.system.JNIBindingsImpl/0x0x000007FAF54F01E0::callPPI@7
+                               ; - org.lwjgl.system.JNI::callPPI@10 (line 1967)
+                               ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@14 (line 2255)
+                               ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+                               ;   {static_call}
+0x0x0000000000000138: aa74 fd97 0x0x000000000000013C:  ;   {post_call_nop}
+0x0x000000000000013C: 1f20 03d5
+0x0x000000000000015C: e242 0054
+0x0x000000000000016C: aa21 a0d2
+0x0x000000000000018C: bf3a 03d5 0x0x0000000000000190:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000190: eb07 40f9 0x0x0000000000000194:  ;*getfield address {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@1 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@13 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x0000000000000194: 6b09 40f9 0x0x0000000000000198:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000198: ea07 40f9 0x0x000000000000019C:  ;*getfield pointer {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@5 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@13 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x000000000000019C: 4a19 40b9 0x0x00000000000001A0:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000001A0: 6ac1 2a8b 0x0x00000000000001A4:  ;*lsub {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@12 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@13 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x00000000000001A4: 4c81 00d1 0x0x00000000000001A8:  ;*land {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@23 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@13 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x00000000000001A8: 8df5 7e92 0x0x00000000000001AC:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000001AC: ab01 0bcb 0x0x00000000000001B0:  ;*l2i {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@32 (line 319)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@13 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x00000000000001B0: fd03 0b2a  ; - org.lwjgl.vulkan.VkClearValue::malloc@0 (line 214)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x00000000000001BC: eb07 40f9 0x0x00000000000001C0:  ;*putfield pointer {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@33 (line 319)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@13 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x00000000000001C0: 7d19 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000001D0: ac11 0091 0x0x00000000000001D4:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsFloats::set@46 (line 123)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF559EDE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C51E0::invoke@41
+                                                   ; - java.lang.invoke.LambdaForm$VH/0x0x000007FAF559E9E0::invoke_MT@35
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 730)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutFloat@12 (line 1816)
+                                                   ; - org.lwjgl.vulkan.VkClearColorValue::nfloat32@17 (line 277)
+                                                   ; - org.lwjgl.vulkan.VkClearColorValue::float32@6 (line 99)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@56 (line 1643)
+0x0x00000000000001D4: 6a01 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000001DC: 8ced 7e92 0x0x00000000000001E0:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsFloats::set@46 (line 123)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF559EDE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C51E0::invoke@41
+                                                   ; - java.lang.invoke.LambdaForm$VH/0x0x000007FAF559E9E0::invoke_MT@35
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 730)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutFloat@12 (line 1816)
+                                                   ; - org.lwjgl.vulkan.VkClearColorValue::nfloat32@17 (line 277)
+                                                   ; - org.lwjgl.vulkan.VkClearColorValue::float32@6 (line 99)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@63 (line 1644)
+0x0x00000000000001E0: 8a01 00b9 0x0x00000000000001E4:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000001E4: ceed 7e92 0x0x00000000000001E8:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsFloats::set@46 (line 123)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF559EDE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C51E0::invoke@41
+                                                   ; - java.lang.invoke.LambdaForm$VH/0x0x000007FAF559E9E0::invoke_MT@35
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 730)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutFloat@12 (line 1816)
+                                                   ; - org.lwjgl.vulkan.VkClearColorValue::nfloat32@17 (line 277)
+                                                   ; - org.lwjgl.vulkan.VkClearColorValue::float32@6 (line 99)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@70 (line 1645)
+0x0x00000000000001E8: ca01 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000001F0: ac51 0091 0x0x00000000000001F4:  ;*ladd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.StructBuffer::get@27 (line 93)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@83 (line 1647)
+0x0x00000000000001F4: ae41 0091 0x0x00000000000001F8:  ;*putfield address {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.Pointer$Default::<init>@26 (line 60)
+                                                   ; - org.lwjgl.system.CustomBuffer::<init>@2 (line 25)
+                                                   ; - org.lwjgl.system.StructBuffer::<init>@11 (line 25)
+                                                   ; - org.lwjgl.vulkan.VkClearValue$Buffer::<init>@7 (line 260)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@17 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x00000000000001F8: ed09 00f9 0x0x00000000000001FC:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000001FC: 10ee 7e92  ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                               ; - java.lang.invoke.VarHandleSegmentAsFloats::set@46 (line 123)
+                               ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF559EDE0::invokeStatic@20
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C51E0::invoke@41
+                               ; - java.lang.invoke.LambdaForm$VH/0x0x000007FAF559E9E0::invoke_MT@35
+                               ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 730)
+                               ; - org.lwjgl.system.MemoryUtil::memPutFloat@12 (line 1816)
+                               ; - org.lwjgl.vulkan.VkClearColorValue::nfloat32@17 (line 277)
+                               ; - org.lwjgl.vulkan.VkClearColorValue::float32@6 (line 99)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@77 (line 1646)
+0x0x0000000000000204: 0a02 00b9 0x0x0000000000000208:  ;*putfield capacity {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.CustomBuffer::<init>@31 (line 32)
+                                                   ; - org.lwjgl.system.StructBuffer::<init>@11 (line 25)
+                                                   ; - org.lwjgl.vulkan.VkClearValue$Buffer::<init>@7 (line 260)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@17 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x0000000000000208: ed21 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000021C: 8ced 7e92 0x0x0000000000000220:  ;*putfield limit {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.CustomBuffer::<init>@25 (line 31)
+                                                   ; - org.lwjgl.system.StructBuffer::<init>@11 (line 25)
+                                                   ; - org.lwjgl.vulkan.VkClearValue$Buffer::<init>@7 (line 260)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@17 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x0000000000000220: ea1d 00b9 0x0x0000000000000224:  ;*putfield mark {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.CustomBuffer::<init>@13 (line 29)
+                                                   ; - org.lwjgl.system.StructBuffer::<init>@11 (line 25)
+                                                   ; - org.lwjgl.vulkan.VkClearValue$Buffer::<init>@7 (line 260)
+                                                   ; - org.lwjgl.vulkan.VkClearValue::malloc@17 (line 214)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x0000000000000224: ed0d 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000022C: caed 7e92 0x0x0000000000000230:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsFloats::set@46 (line 123)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF559EDE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C51E0::invoke@41
+                                                   ; - java.lang.invoke.LambdaForm$VH/0x0x000007FAF559E9E0::invoke_MT@35
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 730)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutFloat@12 (line 1816)
+                                                   ; - org.lwjgl.vulkan.VkClearDepthStencilValue::ndepth@7 (line 243)
+                                                   ; - org.lwjgl.vulkan.VkClearDepthStencilValue::depth@5 (line 80)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@96 (line 1648)
+0x0x0000000000000230: 4b01 00b9 0x0x0000000000000234:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsInts::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54EADE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF54EC1E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJI_V@134 (line 1017)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 718)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutInt@12 (line 1814)
+                                                   ; - org.lwjgl.vulkan.VkClearDepthStencilValue::nstencil@7 (line 245)
+                                                   ; - org.lwjgl.vulkan.VkClearDepthStencilValue::stencil@5 (line 82)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@100 (line 1649)
+0x0x0000000000000234: 9f01 00b9
+0x0x0000000000000254: 2a02 00f9 0x0x0000000000000258:  ;   {metadata('org/lwjgl/vulkan/VkRenderPassBeginInfo')}
+0x0x0000000000000258: aa21 a0d2  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000278: ea07 40f9 0x0x000000000000027C:  ;*getfield address {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@1 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@11 (line 278)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x000000000000027C: 4a09 40f9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000284: ec03 40f9 0x0x0000000000000288:  ;*getfield framebuffers {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@123 (line 1654)
+0x0x0000000000000288: 818d 40f9 0x0x000000000000028C:  ;*lsub {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@12 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@11 (line 278)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x000000000000028C: 6c01 01d1 0x0x0000000000000290:  ;*land {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@23 (line 317)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@11 (line 278)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x0000000000000290: 80f1 7d92 0x0x0000000000000294:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000294: 0a00 0acb 0x0x0000000000000298:  ;*l2i {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@32 (line 319)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@11 (line 278)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x0000000000000298: fd03 0a2a  ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@0 (line 278)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x00000000000002A4: ea07 40f9 0x0x00000000000002A8:  ;*putfield pointer {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.MemoryStack::nmalloc@33 (line 319)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@11 (line 278)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x00000000000002A8: 5d19 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000002BC: ceed 7e92 0x0x00000000000002C0:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsInts::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54EADE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF54EC1E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJI_V@134 (line 1017)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 718)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutInt@12 (line 1814)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::nsType@7 (line 328)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::sType@5 (line 115)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::sType$Default@3 (line 117)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@108 (line 1652)
+0x0x00000000000002C0: 9001 00b9 0x0x00000000000002C4:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000002C4: ea03 40f9 0x0x00000000000002C8:  ;*getfield render_pass {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@116 (line 1653)
+0x0x00000000000002C8: 4a25 40f9 0x0x00000000000002CC:  ;*invokevirtual putLongUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putLongUnaligned@10 (line 3682)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnalignedInternal@17 (line 2605)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnaligned@8 (line 2593)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsLongs::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF550A9E0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF550B9E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJJ_V@134 (line 1071)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 742)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutLong@12 (line 1815)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutAddress@8 (line 1828)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::npNext@7 (line 330)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::pNext@5 (line 119)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@112 (line 1653)
+0x0x00000000000002CC: df01 00f9 0x0x00000000000002D0:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000002D0: eb03 40f9 0x0x00000000000002D4:  ;*getfield current_buffer {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@127 (line 1654)
+0x0x00000000000002D4: 6b85 40b9 0x0x00000000000002D8:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000002D8: aded 7e92 0x0x00000000000002DC:  ;*invokevirtual putLongUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putLongUnaligned@10 (line 3682)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnalignedInternal@17 (line 2605)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnaligned@8 (line 2593)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsLongs::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF550A9E0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF550B9E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJJ_V@134 (line 1071)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 742)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutLong@12 (line 1815)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::nrenderPass@7 (line 332)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderPass@5 (line 137)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@119 (line 1654)
+0x0x00000000000002DC: aa01 00f9 0x0x00000000000002E0:  ;*putfield address {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.system.Pointer$Default::<init>@26 (line 60)
+                                                   ; - org.lwjgl.system.Struct::<init>@2 (line 37)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::<init>@3 (line 72)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@15 (line 278)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x00000000000002E0: 200a 00f9 0x0x00000000000002E4:  ; implicit exception: dispatches to 0x0x0000000000001078
+0x0x00000000000002E4: 3d14 40f9 0x0x00000000000002E8:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000002E8: bd35 00b5 0x0x00000000000002EC:  ;*invokevirtual session {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.nio.DirectLongBufferU::get@4 (line 340)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x00000000000002EC: ec03 1faa 0x0x00000000000002F0:  ;*getfield limit {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.nio.Buffer::checkIndex@2 (line 767)
+                                                   ; - java.nio.DirectLongBufferU::get@11 (line 340)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x00000000000002F0: 3d1c 40b9 0x0x00000000000002F4:  ;*getfield address {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.nio.DirectLongBufferU::ix@1 (line 327)
+                                                   ; - java.nio.DirectLongBufferU::get@14 (line 340)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x00000000000002F4: 2a08 40f9 0x0x00000000000002F8:  ;*invokestatic checkIndex {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.nio.Buffer::checkIndex@8 (line 767)
+                                                   ; - java.nio.DirectLongBufferU::get@11 (line 340)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x00000000000002F8: 5d53 f837  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000300: 823a 0054 0x0x0000000000000304:  ;*ladd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.nio.DirectLongBufferU::ix@8 (line 327)
+                                                   ; - java.nio.DirectLongBufferU::get@14 (line 340)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000000304: 4acd 2b8b 0x0x0000000000000308:  ; implicit exception: dispatches to 0x0x0000000000001098
+0x0x0000000000000308: 9d11 40f9 0x0x000000000000030C:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000030C: bd5f 00b5 0x0x0000000000000310:  ;*getfield state {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.foreign.MemorySessionImpl::checkValidStateRaw@22 (line 203)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::getLongInternal@5 (line 2540)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::getLong@4 (line 2530)
+                                                   ; - java.nio.DirectLongBufferU::get@17 (line 340)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000000310: 9d0d 40b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000328: cced 7e92 0x0x000000000000032C:  ;*invokevirtual putLongUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putLongUnaligned@10 (line 3682)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnalignedInternal@17 (line 2605)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putLongUnaligned@8 (line 2593)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsLongs::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF550A9E0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF550B9E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJJ_V@134 (line 1071)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 742)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutLong@12 (line 1815)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::nframebuffer@7 (line 334)
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::framebuffer@5 (line 139)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@133 (line 1655)
+0x0x000000000000032C: 8b01 00f9 0x0x0000000000000330:  ;   {external_word}
+0x0x0000000000000330: 2b79 fbd0  ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::nrenderArea@5 (line 321)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@4 (line 106)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@2 (line 143)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+0x0x0000000000000338: 0180 0091  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000344: ea03 40f9 0x0x0000000000000348:  ;*getfield width {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$2@2 (line 1660)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AAAF8::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRect2D::extent@5 (line 85)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@15 (line 1660)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+0x0x0000000000000348: 4a0d 40b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000350: 815f 00b4 0x0x0000000000000354:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsInts::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54EADE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF54EC1E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJI_V@134 (line 1017)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 718)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutInt@12 (line 1814)
+                                                   ; - org.lwjgl.vulkan.VkOffset2D::nx@7 (line 244)
+                                                   ; - org.lwjgl.vulkan.VkOffset2D::x@5 (line 81)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$1@2 (line 1658)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA8B8::accept@4
+                                                   ; - org.lwjgl.vulkan.VkRect2D::offset@5 (line 81)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@6 (line 1657)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+0x0x0000000000000354: bf01 00b9 0x0x0000000000000358:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000358: eb03 40f9 0x0x000000000000035C:  ;*getfield height {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$2@9 (line 1661)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AAAF8::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRect2D::extent@5 (line 85)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@15 (line 1660)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+0x0x000000000000035C: 6c69 40b9 0x0x0000000000000360:  ;   {external_word}
+0x0x0000000000000360: 2b79 fbd0  ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                               ; - java.lang.invoke.VarHandleSegmentAsInts::set@43 (line 115)
+                               ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54EADE0::invokeStatic@20
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF54EC1E0::invoke@37
+                               ; - java.lang.invoke.VarHandleGuards::guard_LJI_V@134 (line 1017)
+                               ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 718)
+                               ; - org.lwjgl.system.MemoryUtil::memPutInt@12 (line 1814)
+                               ; - org.lwjgl.vulkan.VkOffset2D::ny@7 (line 246)
+                               ; - org.lwjgl.vulkan.VkOffset2D::y@5 (line 83)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$1@6 (line 1659)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA8B8::accept@4
+                               ; - org.lwjgl.vulkan.VkRect2D::offset@5 (line 81)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@6 (line 1657)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+0x0x0000000000000368: 1f02 00b9 0x0x000000000000036C:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000036C: 6b01 40b9 0x0x0000000000000370:  ;*ladd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.vulkan.VkRect2D::nextent@5 (line 243)
+                                                   ; - org.lwjgl.vulkan.VkRect2D::extent@4 (line 76)
+                                                   ; - org.lwjgl.vulkan.VkRect2D::extent@2 (line 85)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@15 (line 1660)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+0x0x0000000000000370: 0ea0 0091  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000380: eb03 0faa 0x0x0000000000000384:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.misc.Unsafe::putIntUnaligned@10 (line 3704)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnalignedInternal@17 (line 1915)
+                                                   ; - jdk.internal.misc.ScopedMemoryAccess::putIntUnaligned@8 (line 1903)
+                                                   ; - java.lang.invoke.VarHandleSegmentAsInts::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54EADE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF54EC1E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJI_V@134 (line 1017)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 718)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutInt@12 (line 1814)
+                                                   ; - org.lwjgl.vulkan.VkExtent2D::nwidth@7 (line 244)
+                                                   ; - org.lwjgl.vulkan.VkExtent2D::width@5 (line 81)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$2@5 (line 1661)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AAAF8::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRect2D::extent@5 (line 85)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@15 (line 1660)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+0x0x0000000000000384: ca01 00b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000038C: eaed 7e92 0x0x0000000000000390:  ;*invokevirtual putIntUnaligned {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.invoke.VarHandleSegmentAsInts::set@43 (line 115)
+                                                   ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54EADE0::invokeStatic@20
+                                                   ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF54EC1E0::invoke@37
+                                                   ; - java.lang.invoke.VarHandleGuards::guard_LJI_V@134 (line 1017)
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 718)
+                                                   ; - org.lwjgl.system.MemoryUtil::memPutInt@12 (line 1814)
+                                                   ; - org.lwjgl.vulkan.VkExtent2D::nheight@7 (line 246)
+                                                   ; - org.lwjgl.vulkan.VkExtent2D::height@5 (line 83)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$2@12 (line 1662)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AAAF8::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRect2D::extent@5 (line 85)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@15 (line 1660)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                                                   ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+0x0x0000000000000390: 4c01 00b9  ;*invokevirtual pClearValues {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@146 (line 1663)
+                               ;   {optimized virtual_call}
+0x0x000000000000039C: e303 0094 0x0x00000000000003A0:  ;   {post_call_nop}
+0x0x00000000000003A0: 1f20 03d5  ;*invokestatic malloc {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@153 (line 1667)
+                               ;   {static_call}
+0x0x00000000000003B8: 7a61 ff97 0x0x00000000000003BC:  ;   {post_call_nop}
+0x0x00000000000003BC: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000003C4: 1f40 80f2  ;*invokevirtual sType$Default {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@156 (line 1668)
+                               ;   {optimized virtual_call}
+0x0x00000000000003D0: 5c55 ff97 0x0x00000000000003D4:  ;   {post_call_nop}
+0x0x00000000000003D4: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000003E4: e103 00aa  ;*invokevirtual pNext {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@160 (line 1669)
+                               ;   {optimized virtual_call}
+0x0x00000000000003EC: 8553 ff97 0x0x00000000000003F0:  ;   {post_call_nop}
+0x0x00000000000003F0: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000400: e103 00aa  ;*invokevirtual srcAccessMask {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@164 (line 1670)
+                               ;   {optimized virtual_call}
+0x0x0000000000000408: 7e52 ff97 0x0x000000000000040C:  ;   {post_call_nop}
+0x0x000000000000040C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000041C: e103 00aa  ;*invokevirtual dstAccessMask {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@170 (line 1671)
+                               ;   {optimized virtual_call}
+0x0x0000000000000424: 4748 ff97 0x0x0000000000000428:  ;   {post_call_nop}
+0x0x0000000000000428: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000438: e103 00aa  ;*invokevirtual oldLayout {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@174 (line 1672)
+                               ;   {optimized virtual_call}
+0x0x0000000000000440: a050 ff97 0x0x0000000000000444:  ;   {post_call_nop}
+0x0x0000000000000444: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000454: e103 00aa  ;*invokevirtual newLayout {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@178 (line 1673)
+                               ;   {optimized virtual_call}
+0x0x000000000000045C: 0976 ff97 0x0x0000000000000460:  ;   {post_call_nop}
+0x0x0000000000000460: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000470: e103 00aa  ;*invokevirtual srcQueueFamilyIndex {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@182 (line 1674)
+                               ;   {optimized virtual_call}
+0x0x0000000000000478: 2274 ff97 0x0x000000000000047C:  ;   {post_call_nop}
+0x0x000000000000047C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000048C: e103 00aa  ;*invokevirtual dstQueueFamilyIndex {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@186 (line 1675)
+                               ;   {optimized virtual_call}
+0x0x0000000000000494: 4b72 ff97 0x0x0000000000000498:  ;   {post_call_nop}
+0x0x0000000000000498: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000004A4: ec03 40f9 0x0x00000000000004A8:  ;*getfield buffers {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@190 (line 1675)
+0x0x00000000000004A8: 8d79 40f9 0x0x00000000000004AC:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000004AC: e00f 00f9 0x0x00000000000004B0:  ;*getfield current_buffer {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@194 (line 1675)
+0x0x00000000000004B0: 9d85 40b9 0x0x00000000000004B4:  ; implicit exception: dispatches to 0x0x00000000000010BC
+0x0x00000000000004B4: ab0d 40b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000004C0: a233 0054 0x0x00000000000004C4:  ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@197 (line 1675)
+0x0x00000000000004C4: 4a09 40f9 0x0x00000000000004C8:  ; implicit exception: dispatches to 0x0x00000000000010D0
+                                                   ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000004C8: 4209 40f9  ;*invokevirtual image {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@201 (line 1676)
+                               ;   {optimized virtual_call}
+0x0x00000000000004D8: 1a70 ff97 0x0x00000000000004DC:  ;   {post_call_nop}
+0x0x00000000000004DC: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000004E4: 1f60 81f2
+0x0x00000000000004EC: 027d 83d2  ;*invokevirtual subresourceRange {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@209 (line 1677)
+                               ;   {optimized virtual_call}
+0x0x00000000000004FC: 117e ff97 0x0x0000000000000500:  ;   {post_call_nop}
+0x0x0000000000000500: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000508: 1f80 81f2 0x0x000000000000050C:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@215 (line 1684)
+0x0x000000000000050C: a177 40f9  ;*invokestatic vkCmdPipelineBarrier {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@229 (line 1684)
+                               ;   {static_call}
+0x0x0000000000000528: 8e78 ff97 0x0x000000000000052C:  ;   {post_call_nop}
+0x0x000000000000052C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000534: 1fa0 81f2 0x0x0000000000000538:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@233 (line 1685)
+0x0x0000000000000538: a177 40f9 0x0x000000000000053C:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000053C: e20b 40f9  ;*invokestatic vkCmdBeginRenderPass {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@239 (line 1685)
+                               ;   {static_call}
+0x0x0000000000000544: 9104 0094 0x0x0000000000000548:  ;   {post_call_nop}
+0x0x0000000000000548: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000550: 1fc0 81f2 0x0x0000000000000554:  ;*getfield pipeline {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@248 (line 1687)
+0x0x0000000000000554: a32b 40f9 0x0x0000000000000558:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@243 (line 1687)
+0x0x0000000000000558: a177 40f9  ;*invokestatic vkCmdBindPipeline {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@251 (line 1687)
+                               ;   {static_call}
+0x0x0000000000000560: 9204 0094 0x0x0000000000000564:  ;   {post_call_nop}
+0x0x0000000000000564: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000056C: 1fe0 81f2 0x0x0000000000000570:  ;*getfield lp {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@255 (line 1689)
+0x0x0000000000000570: a14b 40f9 0x0x0000000000000574:  ;*getfield desc_set {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@260 (line 1689)
+0x0x0000000000000574: a333 40f9 0x0x0000000000000578:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000578: 2130 00b4  ;*invokevirtual put {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@263 (line 1689)
+                               ;   {optimized virtual_call}
+0x0x0000000000000580: 301c ff97 0x0x0000000000000584:  ;   {post_call_nop}
+0x0x0000000000000584: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000058C: 1f00 82f2 0x0x0000000000000590:  ;*getfield lp {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@278 (line 1690)
+0x0x0000000000000590: a54b 40f9 0x0x0000000000000594:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@268 (line 1690)
+0x0x0000000000000594: a177 40f9 0x0x0000000000000598:  ;*getfield pipeline_layout {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@273 (line 1690)
+0x0x0000000000000598: a323 40f9  ;*invokestatic vkCmdBindDescriptorSets {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@282 (line 1690)
+                               ;   {static_call}
+0x0x00000000000005A8: 8804 0094 0x0x00000000000005AC:  ;   {post_call_nop}
+0x0x00000000000005AC: 1f20 03d5  ;*invokestatic calloc {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@287 (line 1692)
+                               ;   {static_call}
+0x0x00000000000005C0: 8a04 0094 0x0x00000000000005C4:  ;   {post_call_nop}
+0x0x00000000000005C4: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000005D0: ab6b 40b9 0x0x00000000000005D4:  ;*i2f {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@294 (line 1692)
+0x0x00000000000005D4: 6001 221e  ;*invokevirtual height {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@295 (line 1693)
+                               ;   {optimized virtual_call}
+0x0x00000000000005E0: b203 0094 0x0x00000000000005E4:  ;   {post_call_nop}
+0x0x00000000000005E4: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000005F0: aa0f 40b9 0x0x00000000000005F4:  ;*i2f {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@302 (line 1693)
+0x0x00000000000005F4: 4001 221e  ;*invokevirtual width {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@303 (line 1694)
+                               ;   {optimized virtual_call}
+0x0x0000000000000600: b203 0094 0x0x0000000000000604:  ;   {post_call_nop}
+0x0x0000000000000604: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000060C: 1f80 82f2  ;*invokevirtual minDepth {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@307 (line 1695)
+                               ;   {optimized virtual_call}
+0x0x000000000000061C: b303 0094 0x0x0000000000000620:  ;   {post_call_nop}
+0x0x0000000000000620: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000628: 1fa0 82f2  ;*invokevirtual maxDepth {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@311 (line 1696)
+                               ;   {optimized virtual_call}
+0x0x0000000000000638: b403 0094 0x0x000000000000063C:  ;   {post_call_nop}
+0x0x000000000000063C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000644: 1fc0 82f2 0x0x0000000000000648:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@317 (line 1697)
+0x0x0000000000000648: a177 40f9  ;*invokestatic vkCmdSetViewport {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@323 (line 1697)
+                               ;   {static_call}
+0x0x0000000000000654: 6d04 0094 0x0x0000000000000658:  ;   {post_call_nop}
+0x0x0000000000000658: 1f20 03d5  ;*invokestatic calloc {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@328 (line 1699)
+                               ;   {static_call}
+0x0x000000000000066C: 6f04 0094 0x0x0000000000000670:  ;   {post_call_nop}
+0x0x0000000000000670: 1f20 03d5
+0x0x000000000000067C: 2a79 fbd0  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000688: e00b 00f9
+0x0x00000000000006A8: 8be7 00f9 0x0x00000000000006AC:  ;   {metadata('org/lwjgl/demo/vulkan/HelloVulkan$$Lambda+0x0x000007FAF55AB6E8')}
+0x0x00000000000006AC: ac21 a0d2  ; - java.lang.invoke.DirectMethodHandle::allocateInstance@12 (line 506)
+                               ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@1
+                               ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@332 (line 1699)
+0x0x00000000000006C0: 5f0c 00b9 0x0x00000000000006C4:  ;*invokestatic linkToSpecial {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@16
+                                                   ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@332 (line 1699)
+0x0x00000000000006C4: 5d08 00f9 0x0x00000000000006C8:  ;*synchronization entry
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AB6E8::<init>@-1
+                                                   ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@16
+                                                   ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@332 (line 1699)
+0x0x00000000000006C8: bf3a 03d5 0x0x00000000000006CC:  ;*invokevirtual allocateInstance {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.lang.invoke.DirectMethodHandle::allocateInstance@12 (line 506)
+                                                   ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@1
+                                                   ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@332 (line 1699)
+0x0x00000000000006CC: ea0b 40f9  ;*invokevirtual extent {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@337 (line 1700)
+                               ;   {optimized virtual_call}
+0x0x00000000000006D8: 9403 0094 0x0x00000000000006DC:  ;   {post_call_nop}
+0x0x00000000000006DC: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000006E4: 1f20 83f2
+0x0x00000000000006EC: 0241 83d2  ;*invokevirtual offset {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@345 (line 1703)
+                               ;   {optimized virtual_call}
+0x0x00000000000006FC: 9303 0094 0x0x0000000000000700:  ;   {post_call_nop}
+0x0x0000000000000700: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000708: 1f40 83f2 0x0x000000000000070C:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@351 (line 1706)
+0x0x000000000000070C: a177 40f9  ;*invokestatic vkCmdSetScissor {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@357 (line 1706)
+                               ;   {static_call}
+0x0x0000000000000718: 4c04 0094 0x0x000000000000071C:  ;   {post_call_nop}
+0x0x000000000000071C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000724: 1f60 83f2 0x0x0000000000000728:  ;*getfield lp {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@361 (line 1708)
+0x0x0000000000000728: a14b 40f9 0x0x000000000000072C:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000072C: 6127 00b4  ;*invokevirtual put {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@366 (line 1708)
+                               ;   {optimized virtual_call}
+0x0x0000000000000738: c21b ff97 0x0x000000000000073C:  ;   {post_call_nop}
+0x0x000000000000073C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000744: 1f80 83f2 0x0x0000000000000748:  ;*getfield vertices {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@372 (line 1709)
+0x0x0000000000000748: aa8b 40f9 0x0x000000000000074C:  ; implicit exception: dispatches to 0x0x00000000000010E8
+0x0x000000000000074C: 4209 40f9  ;*invokevirtual longs {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@378 (line 1709)
+                               ;   {optimized virtual_call}
+0x0x0000000000000754: abaa ff97 0x0x0000000000000758:  ;   {post_call_nop}
+0x0x0000000000000758: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000760: 1fa0 83f2 0x0x0000000000000764:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@384 (line 1710)
+0x0x0000000000000764: a177 40f9 0x0x0000000000000768:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000768: e303 00aa 0x0x000000000000076C:  ;*getfield lp {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@391 (line 1710)
+0x0x000000000000076C: a44b 40f9  ;*invokestatic vkCmdBindVertexBuffers {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@394 (line 1710)
+                               ;   {static_call}
+0x0x0000000000000774: 3d04 0094 0x0x0000000000000778:  ;   {post_call_nop}
+0x0x0000000000000778: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000780: 1fc0 83f2 0x0x0000000000000784:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@398 (line 1712)
+0x0x0000000000000784: a177 40f9 0x0x0000000000000788:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000788: e207 0032  ;*invokestatic vkCmdDraw {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@405 (line 1712)
+                               ;   {static_call}
+0x0x0000000000000798: 3c04 0094 0x0x000000000000079C:  ;   {post_call_nop}
+0x0x000000000000079C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000007A4: 1fe0 83f2  ;*invokestatic vkCmdEndRenderPass {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@412 (line 1713)
+                               ;   {static_call}
+0x0x00000000000007AC: 3f04 0094 0x0x00000000000007B0:  ;   {post_call_nop}
+0x0x00000000000007B0: 1f20 03d5  ;*invokestatic malloc {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@417 (line 1715)
+                               ;   {static_call}
+0x0x00000000000007C4: 7760 ff97 0x0x00000000000007C8:  ;   {post_call_nop}
+0x0x00000000000007C8: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000007D0: 1f20 84f2  ;*invokevirtual sType$Default {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@420 (line 1716)
+                               ;   {optimized virtual_call}
+0x0x00000000000007DC: 5954 ff97 0x0x00000000000007E0:  ;   {post_call_nop}
+0x0x00000000000007E0: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000007F0: e103 00aa  ;*invokevirtual pNext {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@424 (line 1717)
+                               ;   {optimized virtual_call}
+0x0x00000000000007F8: 8252 ff97 0x0x00000000000007FC:  ;   {post_call_nop}
+0x0x00000000000007FC: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000080C: e103 00aa  ;*invokevirtual srcAccessMask {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@430 (line 1718)
+                               ;   {optimized virtual_call}
+0x0x0000000000000814: 7b51 ff97 0x0x0000000000000818:  ;   {post_call_nop}
+0x0x0000000000000818: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000820: 1f80 84f2  ;*invokevirtual dstAccessMask {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@436 (line 1719)
+                               ;   {optimized virtual_call}
+0x0x0000000000000830: 4447 ff97 0x0x0000000000000834:  ;   {post_call_nop}
+0x0x0000000000000834: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000844: e103 00aa  ;*invokevirtual oldLayout {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@440 (line 1720)
+                               ;   {optimized virtual_call}
+0x0x000000000000084C: 9d4f ff97 0x0x0000000000000850:  ;   {post_call_nop}
+0x0x0000000000000850: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000858: 1fc0 84f2  ;*invokevirtual newLayout {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@446 (line 1721)
+                               ;   {optimized virtual_call}
+0x0x000000000000086C: 0575 ff97 0x0x0000000000000870:  ;   {post_call_nop}
+0x0x0000000000000870: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000880: e103 00aa  ;*invokevirtual srcQueueFamilyIndex {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@450 (line 1722)
+                               ;   {optimized virtual_call}
+0x0x0000000000000888: 1e73 ff97 0x0x000000000000088C:  ;   {post_call_nop}
+0x0x000000000000088C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x000000000000089C: e103 00aa  ;*invokevirtual dstQueueFamilyIndex {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@454 (line 1723)
+                               ;   {optimized virtual_call}
+0x0x00000000000008A4: 4771 ff97 0x0x00000000000008A8:  ;   {post_call_nop}
+0x0x00000000000008A8: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000008B4: ec03 1daa 0x0x00000000000008B8:  ;*getfield buffers {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@458 (line 1723)
+0x0x00000000000008B8: 8d79 40f9 0x0x00000000000008BC:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000008BC: e00b 00f9 0x0x00000000000008C0:  ;*getfield current_buffer {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@462 (line 1723)
+0x0x00000000000008C0: 9d85 40b9 0x0x00000000000008C4:  ; implicit exception: dispatches to 0x0x00000000000010FC
+0x0x00000000000008C4: ab0d 40b9  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000008D0: e21f 0054 0x0x00000000000008D4:  ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@465 (line 1723)
+0x0x00000000000008D4: 4a09 40f9 0x0x00000000000008D8:  ; implicit exception: dispatches to 0x0x0000000000001110
+                                                   ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000008D8: 4209 40f9  ;*invokevirtual image {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@469 (line 1724)
+                               ;   {optimized virtual_call}
+0x0x00000000000008E8: 166f ff97 0x0x00000000000008EC:  ;   {post_call_nop}
+0x0x00000000000008EC: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000008F4: 1f40 85f2
+0x0x00000000000008FC: 0238 83d2  ;*invokevirtual subresourceRange {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@477 (line 1725)
+                               ;   {optimized virtual_call}
+0x0x000000000000090C: 0d7d ff97 0x0x0000000000000910:  ;   {post_call_nop}
+0x0x0000000000000910: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000918: 1f60 85f2 0x0x000000000000091C:  ;*getfield draw_cmd {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@483 (line 1732)
+0x0x000000000000091C: a177 40f9  ;*invokestatic vkCmdPipelineBarrier {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@497 (line 1732)
+                               ;   {static_call}
+0x0x0000000000000938: 8a77 ff97 0x0x000000000000093C:  ;   {post_call_nop}
+0x0x000000000000093C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000944: 1f80 85f2  ;*invokestatic vkEndCommandBuffer {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@504 (line 1734)
+                               ;   {static_call}
+0x0x000000000000094C: 05a8 ff97 0x0x0000000000000950:  ;   {post_call_nop}
+0x0x0000000000000950: 1f20 03d5  ;*invokestatic check {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@507 (line 1734)
+                               ;   {static_call}
+0x0x0000000000000960: d013 ff97 0x0x0000000000000964:  ;   {post_call_nop}
+0x0x0000000000000964: 1f20 03d5  ;*invokevirtual pop {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.system.MemoryStack::close@1 (line 167)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@515 (line 1735)
+                               ;   {optimized virtual_call}
+0x0x0000000000000974: 83e3 ff97 0x0x0000000000000978:  ;   {post_call_nop}
+0x0x0000000000000978: 1f20 03d5
+0x0x000000000000098C: 8817 40f9
+0x0x00000000000009A0: 8a20 a0d2  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x00000000000009A8: 9f01 0a6b 0x0x00000000000009AC:  ;*checkcast {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - java.nio.Buffer::session@11 (line 809)
+                                                   ; - java.nio.DirectLongBufferU::get@4 (line 340)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x00000000000009AC: 2130 0054 0x0x00000000000009B0:  ;*getfield scope {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - jdk.internal.foreign.AbstractMemorySegmentImpl::sessionImpl@1 (line 408)
+                                                   ; - java.nio.Buffer::session@14 (line 809)
+                                                   ; - java.nio.DirectLongBufferU::get@4 (line 340)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x00000000000009B0: ac0f 40f9
+0x0x00000000000009BC: 019f 83d2  ;*new {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.vulkan.VkClearValue::malloc@0 (line 214)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+                               ;   {runtime_call C2 Runtime new_instance}
+0x0x00000000000009C8: 5639 f897 0x0x00000000000009CC:  ;   {post_call_nop}
+0x0x00000000000009CC: 1f20 03d5  ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@-1 (line 278)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x00000000000009DC: ecfd ff17
+0x0x00000000000009E4: 0122 84d2  ;*new {reexecute=0 rethrow=0 return_oop=1}
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@0 (line 278)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+                               ;   {runtime_call C2 Runtime new_instance}
+0x0x00000000000009F0: 4c39 f897 0x0x00000000000009F4:  ;   {post_call_nop}
+0x0x00000000000009F4: 1f20 03d5
+0x0x0000000000000A0C: 01a1 86d2  ;*invokevirtual allocateInstance {reexecute=0 rethrow=0 return_oop=1}
+                               ; - java.lang.invoke.DirectMethodHandle::allocateInstance@12 (line 506)
+                               ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@1
+                               ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@332 (line 1699)
+                               ;   {runtime_call C2 Runtime new_instance}
+0x0x0000000000000A18: 4239 f897 0x0x0000000000000A1C:  ;   {post_call_nop}
+0x0x0000000000000A1C: 1f20 03d5  ; - org.lwjgl.system.MemoryStack::push@35 (line 137)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+0x0x0000000000000A2C: 26ff ff17  ;*iastore {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.system.MemoryStack::push@35 (line 137)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000A40: 383b f897 0x0x0000000000000A44:  ;   {post_call_nop}
+0x0x0000000000000A44: 1f20 03d5  ; - java.nio.Buffer::checkIndex@8 (line 767)
+                               ; - java.nio.DirectLongBufferU::get@11 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000000A4C: 1f60 86f2  ;*invokestatic checkIndex {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.nio.Buffer::checkIndex@8 (line 767)
+                               ; - java.nio.DirectLongBufferU::get@11 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000A64: 2f3b f897 0x0x0000000000000A68:  ;   {post_call_nop}
+0x0x0000000000000A68: 1f20 03d5  ;*invokevirtual sType$Default {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@156 (line 1668)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000A7C: 293b f897 0x0x0000000000000A80:  ;   {post_call_nop}
+0x0x0000000000000A80: 1f20 03d5  ;*invokevirtual pNext {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@160 (line 1669)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000A94: 233b f897 0x0x0000000000000A98:  ;   {post_call_nop}
+0x0x0000000000000A98: 1f20 03d5  ;*invokevirtual srcAccessMask {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@164 (line 1670)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000AAC: 1d3b f897 0x0x0000000000000AB0:  ;   {post_call_nop}
+0x0x0000000000000AB0: 1f20 03d5  ;*invokevirtual dstAccessMask {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@170 (line 1671)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000AC4: 173b f897 0x0x0000000000000AC8:  ;   {post_call_nop}
+0x0x0000000000000AC8: 1f20 03d5  ;*invokevirtual oldLayout {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@174 (line 1672)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000ADC: 113b f897 0x0x0000000000000AE0:  ;   {post_call_nop}
+0x0x0000000000000AE0: 1f20 03d5  ;*invokevirtual newLayout {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@178 (line 1673)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000AF4: 0b3b f897 0x0x0000000000000AF8:  ;   {post_call_nop}
+0x0x0000000000000AF8: 1f20 03d5  ;*invokevirtual srcQueueFamilyIndex {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@182 (line 1674)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000B0C: 053b f897 0x0x0000000000000B10:  ;   {post_call_nop}
+0x0x0000000000000B10: 1f20 03d5  ;*invokevirtual dstQueueFamilyIndex {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@186 (line 1675)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000B24: ff3a f897 0x0x0000000000000B28:  ;   {post_call_nop}
+0x0x0000000000000B28: 1f20 03d5  ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@197 (line 1675)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000B3C: f93a f897 0x0x0000000000000B40:  ;   {post_call_nop}
+0x0x0000000000000B40: 1f20 03d5  ;*invokevirtual image {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@201 (line 1676)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000B58: f23a f897 0x0x0000000000000B5C:  ;   {post_call_nop}
+0x0x0000000000000B5C: 1f20 03d5  ;*invokevirtual subresourceRange {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@209 (line 1677)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000B6C: ed3a f897 0x0x0000000000000B70:  ;   {post_call_nop}
+0x0x0000000000000B70: 1f20 03d5  ;*invokevirtual put {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@263 (line 1689)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000B84: e73a f897 0x0x0000000000000B88:  ;   {post_call_nop}
+0x0x0000000000000B88: 1f20 03d5  ;*invokevirtual height {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@295 (line 1693)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000B9C: e13a f897 0x0x0000000000000BA0:  ;   {post_call_nop}
+0x0x0000000000000BA0: 1f20 03d5  ;*invokevirtual width {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@303 (line 1694)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000BB4: db3a f897 0x0x0000000000000BB8:  ;   {post_call_nop}
+0x0x0000000000000BB8: 1f20 03d5  ;*invokevirtual minDepth {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@307 (line 1695)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000BC8: d63a f897 0x0x0000000000000BCC:  ;   {post_call_nop}
+0x0x0000000000000BCC: 1f20 03d5  ;*invokevirtual maxDepth {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@311 (line 1696)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000BDC: d13a f897 0x0x0000000000000BE0:  ;   {post_call_nop}
+0x0x0000000000000BE0: 1f20 03d5  ;*invokevirtual extent {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@337 (line 1700)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000BF4: cb3a f897 0x0x0000000000000BF8:  ;   {post_call_nop}
+0x0x0000000000000BF8: 1f20 03d5  ;*invokevirtual offset {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@345 (line 1703)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000C08: c63a f897 0x0x0000000000000C0C:  ;   {post_call_nop}
+0x0x0000000000000C0C: 1f20 03d5  ;*invokevirtual put {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@366 (line 1708)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000C1C: c13a f897 0x0x0000000000000C20:  ;   {post_call_nop}
+0x0x0000000000000C20: 1f20 03d5  ;*invokevirtual sType$Default {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@420 (line 1716)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000C30: bc3a f897 0x0x0000000000000C34:  ;   {post_call_nop}
+0x0x0000000000000C34: 1f20 03d5  ;*invokevirtual pNext {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@424 (line 1717)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000C44: b73a f897 0x0x0000000000000C48:  ;   {post_call_nop}
+0x0x0000000000000C48: 1f20 03d5  ;*invokevirtual srcAccessMask {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@430 (line 1718)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000C58: b23a f897 0x0x0000000000000C5C:  ;   {post_call_nop}
+0x0x0000000000000C5C: 1f20 03d5  ;*invokevirtual dstAccessMask {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@436 (line 1719)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000C6C: ad3a f897 0x0x0000000000000C70:  ;   {post_call_nop}
+0x0x0000000000000C70: 1f20 03d5  ;*invokevirtual oldLayout {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@440 (line 1720)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000C80: a83a f897 0x0x0000000000000C84:  ;   {post_call_nop}
+0x0x0000000000000C84: 1f20 03d5  ;*invokevirtual newLayout {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@446 (line 1721)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000C94: a33a f897 0x0x0000000000000C98:  ;   {post_call_nop}
+0x0x0000000000000C98: 1f20 03d5  ;*invokevirtual srcQueueFamilyIndex {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@450 (line 1722)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000CA8: 9e3a f897 0x0x0000000000000CAC:  ;   {post_call_nop}
+0x0x0000000000000CAC: 1f20 03d5  ;*invokevirtual dstQueueFamilyIndex {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@454 (line 1723)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000CBC: 993a f897 0x0x0000000000000CC0:  ;   {post_call_nop}
+0x0x0000000000000CC0: 1f20 03d5  ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@465 (line 1723)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000CD4: 933a f897 0x0x0000000000000CD8:  ;   {post_call_nop}
+0x0x0000000000000CD8: 1f20 03d5  ;*invokevirtual image {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@469 (line 1724)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000CF0: 8c3a f897 0x0x0000000000000CF4:  ;   {post_call_nop}
+0x0x0000000000000CF4: 1f20 03d5  ;*invokevirtual subresourceRange {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@477 (line 1725)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000D04: 873a f897 0x0x0000000000000D08:  ;   {post_call_nop}
+0x0x0000000000000D08: 1f20 03d5  ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.lang.ThreadLocal$ThreadLocalMap::getEntry@18 (line 499)
+                               ; - java.lang.ThreadLocal::get@12 (line 186)
+                               ; - java.lang.ThreadLocal::get@4 (line 171)
+                               ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000D28: 7e3a f897 0x0x0000000000000D2C:  ;   {post_call_nop}
+0x0x0000000000000D2C: 1f20 03d5
+0x0x0000000000000D4C: ee13 00f9 0x0x0000000000000D50:  ; ImmutableOopMap {[0]=Oop [8]=Oop [16]=Oop [32]=Oop }
+                                                   ;*ifeq {reexecute=1 rethrow=0 return_oop=0}
+                                                   ; - (reexecute) java.lang.ThreadLocal$ThreadLocalMap::getEntry@29 (line 500)
+                                                   ; - java.lang.ThreadLocal::get@12 (line 186)
+                                                   ; - java.lang.ThreadLocal::get@4 (line 171)
+                                                   ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                                                   ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                                                   ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000D50: 743a f897 0x0x0000000000000D54:  ;   {post_call_nop}
+0x0x0000000000000D54: 1f20 03d5  ; - java.nio.Buffer::checkIndex@8 (line 767)
+                               ; - java.nio.DirectLongBufferU::get@11 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000000D5C: 1f80 8af2  ;*invokestatic checkIndex {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.nio.Buffer::checkIndex@8 (line 767)
+                               ; - java.nio.DirectLongBufferU::get@11 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000D74: 6b3a f897 0x0x0000000000000D78:  ;   {post_call_nop}
+0x0x0000000000000D78: 1f20 03d5  ; - java.lang.invoke.DirectMethodHandle::allocateInstance@12 (line 506)
+                               ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@1
+                               ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@137 (line 1655)
+0x0x0000000000000D80: 1fa0 8af2  ;*invokevirtual allocateInstance {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.lang.invoke.DirectMethodHandle::allocateInstance@12 (line 506)
+                               ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@1
+                               ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@137 (line 1655)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000D90: 643a f897 0x0x0000000000000D94:  ;   {post_call_nop}
+0x0x0000000000000D94: 1f20 03d5  ;*invokevirtual allocateInstance {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.lang.invoke.DirectMethodHandle::allocateInstance@12 (line 506)
+                               ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@1
+                               ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@10 (line 1657)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000DB0: 5c3a f897 0x0x0000000000000DB4:  ;   {post_call_nop}
+0x0x0000000000000DB4: 1f20 03d5  ;*invokevirtual allocateInstance {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.lang.invoke.DirectMethodHandle::allocateInstance@12 (line 506)
+                               ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@1
+                               ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@332 (line 1699)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000DC4: 573a f897 0x0x0000000000000DC8:  ;   {post_call_nop}
+0x0x0000000000000DC8: 1f20 03d5  ;*if_icmpne {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.MemoryStack::push@9 (line 133)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000DDC: 513a f897 0x0x0000000000000DE0:  ;   {post_call_nop}
+0x0x0000000000000DE0: 1f20 03d5  ;*ifge {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.MemoryStack::nmalloc@46 (line 320)
+                               ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::malloc@11 (line 232)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@5 (line 1633)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000DF0: 4c3a f897 0x0x0000000000000DF4:  ;   {post_call_nop}
+0x0x0000000000000DF4: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000DFC: 1f40 8bf2  ;*ifne {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.Pointer$Default::<init>@13 (line 57)
+                               ; - org.lwjgl.system.Struct::<init>@2 (line 37)
+                               ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::<init>@3 (line 60)
+                               ; - org.lwjgl.vulkan.VkCommandBufferBeginInfo::malloc@15 (line 232)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@5 (line 1633)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000E10: 443a f897 0x0x0000000000000E14:  ;   {post_call_nop}
+0x0x0000000000000E14: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000E1C: 1f60 8bf2  ;*ifne {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) jdk.internal.foreign.AbstractMemorySegmentImpl::equals@32 (line 505)
+                               ; - jdk.internal.foreign.abi.SharedUtils::checkSymbol@9 (line 364)
+                               ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF54E05E0::invokeStatic@10
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C75E0::invoke@27
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55171E0::invokeExact_MT@23
+                               ; - org.lwjgl.system.JNIBindingsImpl/0x0x000007FAF54F01E0::callPPI@7
+                               ; - org.lwjgl.system.JNI::callPPI@10 (line 1967)
+                               ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@14 (line 2255)
+                               ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000E38: 3a3a f897 0x0x0000000000000E3C:  ;   {post_call_nop}
+0x0x0000000000000E3C: 1f20 03d5  ;*ifeq {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.demo.vulkan.HelloVulkan::check@1 (line 318)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@32 (line 1639)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000E54: 333a f897 0x0x0000000000000E58:  ;   {post_call_nop}
+0x0x0000000000000E58: 1f20 03d5  ; - org.lwjgl.system.MemoryStack::nmalloc@16 (line 317)
+                               ; - org.lwjgl.vulkan.VkClearValue::malloc@13 (line 214)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x0000000000000E60: 1fa0 8bf2  ;*ifge {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.MemoryStack::nmalloc@46 (line 320)
+                               ; - org.lwjgl.vulkan.VkClearValue::malloc@13 (line 214)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000E6C: 2d3a f897 0x0x0000000000000E70:  ;   {post_call_nop}
+0x0x0000000000000E70: 1f20 03d5  ; - org.lwjgl.system.Pointer$Default::<init>@1 (line 56)
+                               ; - org.lwjgl.system.CustomBuffer::<init>@2 (line 25)
+                               ; - org.lwjgl.system.StructBuffer::<init>@11 (line 25)
+                               ; - org.lwjgl.vulkan.VkClearValue$Buffer::<init>@7 (line 260)
+                               ; - org.lwjgl.vulkan.VkClearValue::malloc@17 (line 214)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x0000000000000E78: 1fc0 8bf2 0x0x0000000000000E7C:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000E7C: ef0b 00f9  ;*ifne {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.Pointer$Default::<init>@13 (line 57)
+                               ; - org.lwjgl.system.CustomBuffer::<init>@2 (line 25)
+                               ; - org.lwjgl.system.StructBuffer::<init>@11 (line 25)
+                               ; - org.lwjgl.vulkan.VkClearValue$Buffer::<init>@7 (line 260)
+                               ; - org.lwjgl.vulkan.VkClearValue::malloc@17 (line 214)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000E90: 243a f897 0x0x0000000000000E94:  ;   {post_call_nop}
+0x0x0000000000000E94: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000EA0: ef0b 00f9  ;*ifne {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.Pointer$Default::<init>@13 (line 57)
+                               ; - org.lwjgl.system.Struct::<init>@2 (line 37)
+                               ; - org.lwjgl.vulkan.VkClearValue::<init>@3 (line 52)
+                               ; - org.lwjgl.vulkan.VkClearValue::create@6 (line 57)
+                               ; - org.lwjgl.vulkan.VkClearValue::create@3 (line 25)
+                               ; - org.lwjgl.system.StructBuffer::get@32 (line 93)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@83 (line 1647)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000EB4: 1b3a f897 0x0x0000000000000EB8:  ;   {post_call_nop}
+0x0x0000000000000EB8: 1f20 03d5  ; - org.lwjgl.system.MemoryStack::nmalloc@16 (line 317)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@11 (line 278)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x0000000000000EC0: 1f00 8cf2  ;*ifge {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.MemoryStack::nmalloc@46 (line 320)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@11 (line 278)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000ECC: 153a f897 0x0x0000000000000ED0:  ;   {post_call_nop}
+0x0x0000000000000ED0: 1f20 03d5  ; - org.lwjgl.system.Pointer$Default::<init>@1 (line 56)
+                               ; - org.lwjgl.system.Struct::<init>@2 (line 37)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::<init>@3 (line 72)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@15 (line 278)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+0x0x0000000000000ED8: 1f20 8cf2 0x0x0000000000000EDC:  ;*invokedynamic {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000EDC: ef47 01a9  ;*ifne {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.Pointer$Default::<init>@13 (line 57)
+                               ; - org.lwjgl.system.Struct::<init>@2 (line 37)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::<init>@3 (line 72)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::malloc@15 (line 278)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@105 (line 1651)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000EF0: 0c3a f897 0x0x0000000000000EF4:  ;   {post_call_nop}
+0x0x0000000000000EF4: 1f20 03d5  ; - jdk.internal.foreign.MemorySessionImpl::checkValidStateRaw@-1 (line 200)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLongInternal@5 (line 2540)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLong@4 (line 2530)
+                               ; - java.nio.DirectLongBufferU::get@17 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000000EFC: 1f40 8cf2  ;*ifnull {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) jdk.internal.foreign.MemorySessionImpl::checkValidStateRaw@4 (line 200)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLongInternal@5 (line 2540)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLong@4 (line 2530)
+                               ; - java.nio.DirectLongBufferU::get@17 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000F10: 043a f897 0x0x0000000000000F14:  ;   {post_call_nop}
+0x0x0000000000000F14: 1f20 03d5  ; - jdk.internal.foreign.MemorySessionImpl::checkValidStateRaw@4 (line 200)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLongInternal@5 (line 2540)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLong@4 (line 2530)
+                               ; - java.nio.DirectLongBufferU::get@17 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000000F1C: 1f60 8cf2  ;*ifge {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) jdk.internal.foreign.MemorySessionImpl::checkValidStateRaw@25 (line 203)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLongInternal@5 (line 2540)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLong@4 (line 2530)
+                               ; - java.nio.DirectLongBufferU::get@17 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000F30: fc39 f897 0x0x0000000000000F34:  ;   {post_call_nop}
+0x0x0000000000000F34: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000F3C: 1f80 8cf2  ;*ifne {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.Pointer$Default::<init>@13 (line 57)
+                               ; - org.lwjgl.system.Struct::<init>@2 (line 37)
+                               ; - org.lwjgl.vulkan.VkRect2D::<init>@3 (line 52)
+                               ; - org.lwjgl.vulkan.VkRect2D::create@6 (line 130)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::nrenderArea@6 (line 321)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@4 (line 106)
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@2 (line 143)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000F5C: f139 f897 0x0x0000000000000F60:  ;   {post_call_nop}
+0x0x0000000000000F60: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@472 (line 1724)
+0x0x0000000000000F78: e80b 00f9  ;*ifne {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.system.Pointer$Default::<init>@13 (line 57)
+                               ; - org.lwjgl.system.Struct::<init>@2 (line 37)
+                               ; - org.lwjgl.vulkan.VkExtent2D::<init>@3 (line 52)
+                               ; - org.lwjgl.vulkan.VkExtent2D::create@6 (line 128)
+                               ; - org.lwjgl.vulkan.VkRect2D::nextent@6 (line 243)
+                               ; - org.lwjgl.vulkan.VkRect2D::extent@4 (line 76)
+                               ; - org.lwjgl.vulkan.VkRect2D::extent@2 (line 85)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::lambda$demo_draw_build_cmd$0@15 (line 1660)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan$$Lambda/0x0x000007FAF55AA670::accept@8
+                               ; - org.lwjgl.vulkan.VkRenderPassBeginInfo::renderArea@5 (line 143)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@142 (line 1656)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000F8C: e539 f897 0x0x0000000000000F90:  ;   {post_call_nop}
+0x0x0000000000000F90: 1f20 03d5  ;*checkcast {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.system.MemoryStack::stackGet@6 (line 899)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000FA0: e039 f897 0x0x0000000000000FA4:  ;   {post_call_nop}
+0x0x0000000000000FA4: 1f20 03d5  ; - java.nio.Buffer::session@11 (line 809)
+                               ; - java.nio.DirectLongBufferU::get@4 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000000FAC: 1fe0 8cf2  ;*checkcast {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.nio.Buffer::session@11 (line 809)
+                               ; - java.nio.DirectLongBufferU::get@4 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000FC0: d839 f897 0x0x0000000000000FC4:  ;   {post_call_nop}
+0x0x0000000000000FC4: 1f20 03d5  ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C79E0::invoke@16
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55179E0::invokeExact_MT@23
+                               ; - jdk.internal.foreign.abi.DowncallStub/0x0x000007FAF558C5E0::invoke@52
+                               ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF55151E0::invokeStatic@16
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C75E0::invoke@47
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55171E0::invokeExact_MT@23
+                               ; - org.lwjgl.system.JNIBindingsImpl/0x0x000007FAF54F01E0::callPPI@7
+                               ; - org.lwjgl.system.JNI::callPPI@10 (line 1967)
+                               ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@14 (line 2255)
+                               ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+0x0x0000000000000FCC: 1f00 8df2  ;*aload {reexecute=0 rethrow=0 return_oop=0}
+                               ; - jdk.internal.foreign.abi.DowncallStub/0x0x000007FAF558C5E0::invoke@80
+                               ; - java.lang.invoke.LambdaForm$DMH/0x0x000007FAF55151E0::invokeStatic@16
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55C75E0::invoke@47
+                               ; - java.lang.invoke.LambdaForm$MH/0x0x000007FAF55171E0::invokeExact_MT@23
+                               ; - org.lwjgl.system.JNIBindingsImpl/0x0x000007FAF54F01E0::callPPI@7
+                               ; - org.lwjgl.system.JNI::callPPI@10 (line 1967)
+                               ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@14 (line 2255)
+                               ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000000FE0: d039 f897 0x0x0000000000000FE4:  ;   {post_call_nop}
+0x0x0000000000000FE4: 1f20 03d5  ; - org.lwjgl.system.MemoryStack::close@1 (line 167)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@515 (line 1735)
+0x0x0000000000000FEC: 1f20 8df2
+0x0x0000000000000FFC: 893f f817  ;*arraylength {reexecute=0 rethrow=0 return_oop=0}
+                               ; - java.lang.ThreadLocal$ThreadLocalMap::getEntry@8 (line 498)
+                               ; - java.lang.ThreadLocal::get@12 (line 186)
+                               ; - java.lang.ThreadLocal::get@4 (line 171)
+                               ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001008: c639 f897 0x0x000000000000100C:  ;   {post_call_nop}
+0x0x000000000000100C: 1f20 03d5  ;*checkcast {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.system.MemoryStack::stackGet@6 (line 899)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001020: c039 f897 0x0x0000000000001024:  ;   {post_call_nop}
+0x0x0000000000001024: 1f20 03d5  ;*arraylength {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.system.MemoryStack::push@8 (line 133)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@3 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001038: ba39 f897 0x0x000000000000103C:  ;   {post_call_nop}
+0x0x000000000000103C: 1f20 03d5  ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@1 (line 2254)
+                               ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+0x0x0000000000001044: 1f80 8df2  ;*invokevirtual getCapabilities {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@1 (line 2254)
+                               ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001050: b439 f897 0x0x0000000000001054:  ;   {post_call_nop}
+0x0x0000000000001054: 1f20 03d5  ; - org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@4 (line 2254)
+                               ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+0x0x000000000000105C: 1fa0 8df2  ;*getfield vkBeginCommandBuffer {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.vulkan.VK10::nvkBeginCommandBuffer@4 (line 2254)
+                               ; - org.lwjgl.vulkan.VK10::vkBeginCommandBuffer@5 (line 2261)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@29 (line 1639)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001068: ae39 f897 0x0x000000000000106C:  ;   {post_call_nop}
+0x0x000000000000106C: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000001074: 1fc0 8df2  ;*invokevirtual get {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001088: a639 f897 0x0x000000000000108C:  ;   {post_call_nop}
+0x0x000000000000108C: 1f20 03d5  ; - jdk.internal.misc.ScopedMemoryAccess::getLongInternal@1 (line 2539)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLong@4 (line 2530)
+                               ; - java.nio.DirectLongBufferU::get@17 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+0x0x0000000000001094: 1fe0 8df2  ;*ifnull {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) jdk.internal.misc.ScopedMemoryAccess::getLongInternal@1 (line 2539)
+                               ; - jdk.internal.misc.ScopedMemoryAccess::getLong@4 (line 2530)
+                               ; - java.nio.DirectLongBufferU::get@17 (line 340)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@130 (line 1655)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x00000000000010AC: 9d39 f897 0x0x00000000000010B0:  ;   {post_call_nop}
+0x0x00000000000010B0: 1f20 03d5  ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@197 (line 1675)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x00000000000010C0: 9839 f897 0x0x00000000000010C4:  ;   {post_call_nop}
+0x0x00000000000010C4: 1f20 03d5  ;*getfield image {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@198 (line 1675)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x00000000000010D8: 9239 f897 0x0x00000000000010DC:  ;   {post_call_nop}
+0x0x00000000000010DC: 1f20 03d5  ;*getfield buf {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@375 (line 1709)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x00000000000010EC: 8d39 f897 0x0x00000000000010F0:  ;   {post_call_nop}
+0x0x00000000000010F0: 1f20 03d5  ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@465 (line 1723)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001100: 8839 f897 0x0x0000000000001104:  ;   {post_call_nop}
+0x0x0000000000001104: 1f20 03d5  ;*getfield image {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@466 (line 1723)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001118: 8239 f897 0x0x000000000000111C:  ;   {post_call_nop}
+0x0x000000000000111C: 1f20 03d5  ;*ifnull {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) java.lang.ThreadLocal::get@7 (line 185)
+                               ; - java.lang.ThreadLocal::get@4 (line 171)
+                               ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x0000000000001138: 7a39 f897 0x0x000000000000113C:  ;   {post_call_nop}
+0x0x000000000000113C: 1f20 03d5  ;*ifnull {reexecute=1 rethrow=0 return_oop=0}
+                               ; - (reexecute) java.lang.ThreadLocal$ThreadLocalMap::getEntry@21 (line 500)
+                               ; - java.lang.ThreadLocal::get@12 (line 186)
+                               ; - java.lang.ThreadLocal::get@4 (line 171)
+                               ; - org.lwjgl.system.MemoryStack::stackGet@3 (line 899)
+                               ; - org.lwjgl.system.MemoryStack::stackPush@0 (line 908)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@0 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x000000000000115C: 7139 f897 0x0x0000000000001160:  ;   {post_call_nop}
+0x0x0000000000001160: 1f20 03d5  ; - java.lang.invoke.DirectMethodHandle::allocateInstance@12 (line 506)
+                               ; - java.lang.invoke.DirectMethodHandle$Holder::newInvokeSpecial@1
+                               ; - java.lang.invoke.Invokers$Holder::linkToTargetMethod@5
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@332 (line 1699)
+0x0x0000000000001168: 1fe0 8ef2  ; - jdk.internal.foreign.AbstractMemorySegmentImpl::set@10 (line 730)
+                               ; - org.lwjgl.system.MemoryUtil::memPutFloat@12 (line 1816)
+                               ; - org.lwjgl.vulkan.VkClearDepthStencilValue::ndepth@7 (line 243)
+                               ; - org.lwjgl.vulkan.VkClearDepthStencilValue::depth@5 (line 80)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@96 (line 1648)
+0x0x0000000000001170: 6000 0014  ; - org.lwjgl.vulkan.VkClearValue::malloc@0 (line 214)
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@37 (line 1641)
+0x0x0000000000001178: 5e00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@507 (line 1734)
+0x0x0000000000001180: 5c00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@504 (line 1734)
+0x0x0000000000001188: 5a00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@497 (line 1732)
+0x0x0000000000001190: 5800 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@477 (line 1725)
+0x0x0000000000001198: 5600 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@469 (line 1724)
+0x0x00000000000011A0: 5400 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@454 (line 1723)
+0x0x00000000000011A8: 5200 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@450 (line 1722)
+0x0x00000000000011B0: 5000 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@446 (line 1721)
+0x0x00000000000011B8: 4e00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@440 (line 1720)
+0x0x00000000000011C0: 4c00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@436 (line 1719)
+0x0x00000000000011C8: 4a00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@430 (line 1718)
+0x0x00000000000011D0: 4800 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@424 (line 1717)
+0x0x00000000000011D8: 4600 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@420 (line 1716)
+0x0x00000000000011E0: 4400 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@417 (line 1715)
+0x0x00000000000011E8: 4200 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@412 (line 1713)
+0x0x00000000000011F0: 4000 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@405 (line 1712)
+0x0x00000000000011F8: 3e00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@394 (line 1710)
+0x0x0000000000001200: 3c00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@378 (line 1709)
+0x0x0000000000001208: 3a00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@366 (line 1708)
+0x0x0000000000001210: 3800 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@357 (line 1706)
+0x0x0000000000001218: 3600 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@345 (line 1703)
+0x0x0000000000001220: 3400 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@337 (line 1700)
+0x0x0000000000001228: 3200 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@328 (line 1699)
+0x0x0000000000001230: 3000 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@323 (line 1697)
+0x0x0000000000001238: 2e00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@311 (line 1696)
+0x0x0000000000001240: 2c00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@307 (line 1695)
+0x0x0000000000001248: 2a00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@303 (line 1694)
+0x0x0000000000001250: 2800 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@295 (line 1693)
+0x0x0000000000001258: 2600 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@287 (line 1692)
+0x0x0000000000001260: 2400 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@282 (line 1690)
+0x0x0000000000001268: 2200 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@263 (line 1689)
+0x0x0000000000001270: 2000 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@251 (line 1687)
+0x0x0000000000001278: 1e00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@239 (line 1685)
+0x0x0000000000001280: 1c00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@229 (line 1684)
+0x0x0000000000001288: 1a00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@209 (line 1677)
+0x0x0000000000001290: 1800 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@201 (line 1676)
+0x0x0000000000001298: 1600 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@186 (line 1675)
+0x0x00000000000012A0: 1400 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@182 (line 1674)
+0x0x00000000000012A8: 1200 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@178 (line 1673)
+0x0x00000000000012B0: 1000 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@174 (line 1672)
+0x0x00000000000012B8: 0e00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@170 (line 1671)
+0x0x00000000000012C0: 0c00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@164 (line 1670)
+0x0x00000000000012C8: 0a00 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@160 (line 1669)
+0x0x00000000000012D0: 0800 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@156 (line 1668)
+0x0x00000000000012D8: 0600 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@153 (line 1667)
+0x0x00000000000012E0: 0400 0014  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@146 (line 1663)
+0x0x00000000000012E8: 0200 0014 0x0x00000000000012EC:  ;*return {reexecute=0 rethrow=0 return_oop=0}
+                                                   ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@541 (line 1736)
+0x0x00000000000012EC: fd03 00aa  ;*astore_2 {reexecute=0 rethrow=0 return_oop=0}
+                               ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@521 (line 1632)
+                               ;   {runtime_call UncommonTrapBlob}
+0x0x00000000000012F4: 0b39 f897 0x0x00000000000012F8:  ;   {post_call_nop}
+0x0x00000000000012F8: 1f20 03d5  ; - org.lwjgl.demo.vulkan.HelloVulkan::demo_draw_build_cmd@521 (line 1632)
+0x0x0000000000001300: 1f00 8ff2 0x0x0000000000001304:  ;   {internal_word}
+0x0x0000000000001304: 48b4 ff10
+0x0x000000000000130C: 5542 f717 0x0x0000000000001310:  ;   {runtime_call StubRoutines (final stubs)}
+0x0x0000000000001310: 08e0 98d2
+0x0x0000000000001324: 0100 0000
+[Stub Code]
+0x0x0000000000001328: df3f 03d5 0x0x000000000000132C:  ;   {metadata({method} {0x0x0000000017D9DEC8} 'pClearValues' '(Lorg/lwjgl/vulkan/VkClearValue$Buffer;)Lorg/lwjgl/vulkan/VkRenderPassBeginInfo;' in 'org/lwjgl/vulkan/VkRenderPassBeginInfo')}
+0x0x000000000000132C: 0c9d 8bd2
+0x0x0000000000001348: df3f 03d5 0x0x000000000000134C:  ;   {metadata(nullptr)}
+0x0x000000000000134C: 0c00 80d2
+0x0x0000000000001368: df3f 03d5 0x0x000000000000136C:  ;   {metadata(nullptr)}
+0x0x000000000000136C: 0c00 80d2
+0x0x0000000000001388: df3f 03d5 0x0x000000000000138C:  ;   {metadata(nullptr)}
+0x0x000000000000138C: 0c00 80d2
+0x0x00000000000013A8: df3f 03d5 0x0x00000000000013AC:  ;   {metadata(nullptr)}
+0x0x00000000000013AC: 0c00 80d2
+0x0x00000000000013C8: df3f 03d5 0x0x00000000000013CC:  ;   {metadata(nullptr)}
+0x0x00000000000013CC: 0c00 80d2
+0x0x00000000000013E8: df3f 03d5 0x0x00000000000013EC:  ;   {metadata(nullptr)}
+0x0x00000000000013EC: 0c00 80d2
+0x0x0000000000001408: df3f 03d5 0x0x000000000000140C:  ;   {metadata(nullptr)}
+0x0x000000000000140C: 0c00 80d2
+0x0x0000000000001428: df3f 03d5 0x0x000000000000142C:  ;   {metadata(nullptr)}
+0x0x000000000000142C: 0c00 80d2
+0x0x0000000000001448: df3f 03d5 0x0x000000000000144C:  ;   {metadata(nullptr)}
+0x0x000000000000144C: 0c00 80d2
+0x0x0000000000001468: df3f 03d5 0x0x000000000000146C:  ;   {metadata(nullptr)}
+0x0x000000000000146C: 0c00 80d2
+0x0x0000000000001488: df3f 03d5 0x0x000000000000148C:  ;   {metadata(nullptr)}
+0x0x000000000000148C: 0c00 80d2
+0x0x00000000000014A8: df3f 03d5 0x0x00000000000014AC:  ;   {metadata({method} {0x0x0000000017DB73C0} 'height' '(F)Lorg/lwjgl/vulkan/VkViewport$Buffer;' in 'org/lwjgl/vulkan/VkViewport$Buffer')}
+0x0x00000000000014AC: 0c3c 9ed2
+0x0x00000000000014C8: df3f 03d5 0x0x00000000000014CC:  ;   {metadata({method} {0x0x0000000017DB7300} 'width' '(F)Lorg/lwjgl/vulkan/VkViewport$Buffer;' in 'org/lwjgl/vulkan/VkViewport$Buffer')}
+0x0x00000000000014CC: 0c24 9ed2
+0x0x00000000000014E8: df3f 03d5 0x0x00000000000014EC:  ;   {metadata({method} {0x0x0000000017DB7480} 'minDepth' '(F)Lorg/lwjgl/vulkan/VkViewport$Buffer;' in 'org/lwjgl/vulkan/VkViewport$Buffer')}
+0x0x00000000000014EC: 0c54 9ed2
+0x0x0000000000001508: df3f 03d5 0x0x000000000000150C:  ;   {metadata({method} {0x0x0000000017DB7540} 'maxDepth' '(F)Lorg/lwjgl/vulkan/VkViewport$Buffer;' in 'org/lwjgl/vulkan/VkViewport$Buffer')}
+0x0x000000000000150C: 0c6c 9ed2
+0x0x0000000000001528: df3f 03d5 0x0x000000000000152C:  ;   {metadata({method} {0x0x0000000017C847B0} 'extent' '(Ljava/util/function/Consumer;)Lorg/lwjgl/vulkan/VkRect2D$Buffer;' in 'org/lwjgl/vulkan/VkRect2D$Buffer')}
+0x0x000000000000152C: 0cba 98d2
+0x0x0000000000001548: df3f 03d5 0x0x000000000000154C:  ;   {metadata({method} {0x0x0000000017C84630} 'offset' '(Ljava/util/function/Consumer;)Lorg/lwjgl/vulkan/VkRect2D$Buffer;' in 'org/lwjgl/vulkan/VkRect2D$Buffer')}
+0x0x000000000000154C: 0c8a 98d2
+0x0x0000000000001568: df3f 03d5 0x0x000000000000156C:  ;   {metadata(nullptr)}
+0x0x000000000000156C: 0c00 80d2
+0x0x0000000000001588: df3f 03d5 0x0x000000000000158C:  ;   {metadata(nullptr)}
+0x0x000000000000158C: 0c00 80d2
+0x0x00000000000015A8: df3f 03d5 0x0x00000000000015AC:  ;   {metadata(nullptr)}
+0x0x00000000000015AC: 0c00 80d2
+0x0x00000000000015C8: df3f 03d5 0x0x00000000000015CC:  ;   {metadata(nullptr)}
+0x0x00000000000015CC: 0c00 80d2
+0x0x00000000000015E8: df3f 03d5 0x0x00000000000015EC:  ;   {metadata(nullptr)}
+0x0x00000000000015EC: 0c00 80d2
+0x0x0000000000001608: df3f 03d5 0x0x000000000000160C:  ;   {metadata(nullptr)}
+0x0x000000000000160C: 0c00 80d2
+0x0x0000000000001628: df3f 03d5 0x0x000000000000162C:  ;   {metadata(nullptr)}
+0x0x000000000000162C: 0c00 80d2
+0x0x0000000000001648: df3f 03d5 0x0x000000000000164C:  ;   {metadata(nullptr)}
+0x0x000000000000164C: 0c00 80d2
+0x0x0000000000001668: df3f 03d5 0x0x000000000000166C:  ;   {metadata(nullptr)}
+0x0x000000000000166C: 0c00 80d2
+0x0x0000000000001688: df3f 03d5 0x0x000000000000168C:  ;   {metadata(nullptr)}
+0x0x000000000000168C: 0c00 80d2
+0x0x00000000000016A8: df3f 03d5 0x0x00000000000016AC:  ;   {metadata(nullptr)}
+0x0x00000000000016AC: 0c00 80d2
+0x0x00000000000016C8: df3f 03d5 0x0x00000000000016CC:  ;   {metadata(nullptr)}
+0x0x00000000000016CC: 0c00 80d2
+0x0x00000000000016E8: df3f 03d5 0x0x00000000000016EC:  ;   {metadata(nullptr)}
+0x0x00000000000016EC: 0c00 80d2
+0x0x0000000000001708: df3f 03d5 0x0x000000000000170C:  ;   {metadata(nullptr)}
+0x0x000000000000170C: 0c00 80d2
+0x0x0000000000001728: df3f 03d5 0x0x000000000000172C:  ;   {metadata(nullptr)}
+0x0x000000000000172C: 0c00 80d2
+0x0x0000000000001748: df3f 03d5 0x0x000000000000174C:  ;   {metadata(nullptr)}
+0x0x000000000000174C: 0c00 80d2
+0x0x0000000000001768: df3f 03d5 0x0x000000000000176C:  ;   {metadata(nullptr)}
+0x0x000000000000176C: 0c00 80d2
+0x0x0000000000001788: df3f 03d5 0x0x000000000000178C:  ;   {metadata({method} {0x0x0000000017B97E40} 'vkCmdBeginRenderPass' '(Lorg/lwjgl/vulkan/VkCommandBuffer;Lorg/lwjgl/vulkan/VkRenderPassBeginInfo;I)V' in 'org/lwjgl/vulkan/VK10')}
+0x0x000000000000178C: 0c8c 9fd2
+0x0x00000000000017A8: df3f 03d5 0x0x00000000000017AC:  ;   {metadata({method} {0x0x0000000017B92D20} 'vkCmdBindPipeline' '(Lorg/lwjgl/vulkan/VkCommandBuffer;IJ)V' in 'org/lwjgl/vulkan/VK10')}
+0x0x00000000000017AC: 0c68 95d2
+0x0x00000000000017C8: df3f 03d5 0x0x00000000000017CC:  ;   {metadata({method} {0x0x0000000017B93AC8} 'vkCmdBindDescriptorSets' '(Lorg/lwjgl/vulkan/VkCommandBuffer;IJILjava/nio/LongBuffer;Ljava/nio/IntBuffer;)V' in 'org/lwjgl/vulkan/VK10')}
+0x0x00000000000017CC: 0c1d 97d2
+0x0x00000000000017E8: df3f 03d5 0x0x00000000000017EC:  ;   {metadata({method} {0x0x0000000017DB50E8} 'calloc' '(ILorg/lwjgl/system/MemoryStack;)Lorg/lwjgl/vulkan/VkViewport$Buffer;' in 'org/lwjgl/vulkan/VkViewport')}
+0x0x00000000000017EC: 0ce1 99d2
+0x0x0000000000001808: df3f 03d5 0x0x000000000000180C:  ;   {metadata({method} {0x0x0000000017B92F08} 'vkCmdSetViewport' '(Lorg/lwjgl/vulkan/VkCommandBuffer;ILorg/lwjgl/vulkan/VkViewport$Buffer;)V' in 'org/lwjgl/vulkan/VK10')}
+0x0x000000000000180C: 0ca5 95d2
+0x0x0000000000001828: df3f 03d5 0x0x000000000000182C:  ;   {metadata({method} {0x0x0000000017907708} 'calloc' '(ILorg/lwjgl/system/MemoryStack;)Lorg/lwjgl/vulkan/VkRect2D$Buffer;' in 'org/lwjgl/vulkan/VkRect2D')}
+0x0x000000000000182C: 0ca5 9ed2
+0x0x0000000000001848: df3f 03d5 0x0x000000000000184C:  ;   {metadata({method} {0x0x0000000017B930F0} 'vkCmdSetScissor' '(Lorg/lwjgl/vulkan/VkCommandBuffer;ILorg/lwjgl/vulkan/VkRect2D$Buffer;)V' in 'org/lwjgl/vulkan/VK10')}
+0x0x000000000000184C: 0ce2 95d2
+0x0x0000000000001868: df3f 03d5 0x0x000000000000186C:  ;   {metadata({method} {0x0x0000000017B93E40} 'vkCmdBindVertexBuffers' '(Lorg/lwjgl/vulkan/VkCommandBuffer;ILjava/nio/LongBuffer;Ljava/nio/LongBuffer;)V' in 'org/lwjgl/vulkan/VK10')}
+0x0x000000000000186C: 0c8c 97d2
+0x0x0000000000001888: df3f 03d5 0x0x000000000000188C:  ;   {metadata({method} {0x0x0000000017B93F88} 'vkCmdDraw' '(Lorg/lwjgl/vulkan/VkCommandBuffer;IIII)V' in 'org/lwjgl/vulkan/VK10')}
+0x0x000000000000188C: 0cb5 97d2
+0x0x00000000000018A8: df3f 03d5 0x0x00000000000018AC:  ;   {metadata({method} {0x0x0000000017B98018} 'vkCmdEndRenderPass' '(Lorg/lwjgl/vulkan/VkCommandBuffer;)V' in 'org/lwjgl/vulkan/VK10')}
+0x0x00000000000018AC: 0cc7 9fd2
+0x0x00000000000018C8: df3f 03d5 0x0x00000000000018CC:  ;   {metadata(nullptr)}
+0x0x00000000000018CC: 0c00 80d2
+[Exception Handler]
+0x0x00000000000018E8: ee37 f817
+[Deopt Handler Code]
+0x0x00000000000018EC: 1e00 0010 0x0x00000000000018F0:  ;   {runtime_call DeoptimizationBlob}
+0x0x00000000000018F0: 5c41 f717
+[/MachCode]
